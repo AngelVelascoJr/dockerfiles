@@ -1,0 +1,4 @@
+FROM ubuntu:22.04
+WORKDIR /docfile_ws
+COPY file.txt /docfile_ws/
+CMD ["bash"]
